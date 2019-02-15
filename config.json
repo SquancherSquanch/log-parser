@@ -1,0 +1,13 @@
+{
+  "file": "eqlog_Bayliegh_project1999.txt",
+  "filePath": "C:/_Work/EQ/Logs/",
+  "items": ["Lute of the Howler", "J Boot", "Astral Cloak of the Titans", "Adamantite Club"],
+  "regexDict": {
+    "SOC": "Auto attack is on",
+    "EOC": "has been slain|You have slain|Auto attack is off",
+    "meleeYDMG": "^.* You (slash|crush|pierce) (.*) for (\\d+)",
+    "dotYDMG": "(^.*]) (.*) has taken (\\d+)",
+    "spellYDMG": "(^.*]) (.*) was hit by non-melee for (\\d+)",
+    "casting": "(^.*]) you begin casting"
+  }
+}
